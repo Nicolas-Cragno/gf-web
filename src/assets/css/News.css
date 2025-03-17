@@ -1,0 +1,29 @@
+.news{
+    height: 94vh;
+    width: 100vh;
+}
+
+.principal-new{
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    align-content: flex-end;
+    justify-items:flex-start;
+}
+
+.principal-img{
+    height: 50vh;
+}
+
+.new-title{
+    color: white;
+}
+
+.new-txt{
+    background-color: black;
+    color: white;
+}
+
+.box{
+    margin-top: 10vh;
+}
