@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/css/News.css';
+import Cards from '../components/Cards';
 import { Container, Row, Col } from 'react-bootstrap';
 import ImgPrincipal from '../assets/statics/FeedBackground800px.svg';
 
@@ -15,6 +16,54 @@ export default function News() {
               <div>
                 <p className='new-txt'>Descripción de la última noticia.Descripción de la última noticia.Descripción de la última noticia.</p>
               </div>
+            </Col>
+            <Col md={4} className='box2'>
+              <Cards 
+              img={ImgPrincipal} 
+              title="Titulo" 
+              txt="Descripción de la última noticia.Descripción de la última noticia." 
+              date="fecha"
+              ></Cards>
+            </Col>
+            <Col md={4} className='box2'>
+              <Cards 
+              img={ImgPrincipal} 
+              title="Titulo" 
+              txt="Descripción de la última noticia.Descripción de la última noticia." 
+              date="fecha"
+              ></Cards>
+            </Col>
+            <Col md={4} className='box2'>
+              <Cards 
+              img={ImgPrincipal} 
+              title="Titulo" 
+              txt="Descripción de la última noticia.Descripción de la última noticia." 
+              date="fecha"
+              ></Cards>
+            </Col>
+            <Col md={4} className='box2'>
+              <Cards 
+              img={ImgPrincipal} 
+              title="Titulo" 
+              txt="Descripción de la última noticia.Descripción de la última noticia." 
+              date="fecha"
+              ></Cards>
+            </Col>
+            <Col md={4} className='box2'>
+              <Cards 
+              img={ImgPrincipal} 
+              title="Titulo" 
+              txt="Descripción de la última noticia.Descripción de la última noticia." 
+              date="fecha"
+              ></Cards>
+            </Col>
+            <Col md={4} className='box2'>
+              <Cards 
+              img={ImgPrincipal} 
+              title="Titulo" 
+              txt="Descripción de la última noticia.Descripción de la última noticia." 
+              date="fecha"
+              ></Cards>
             </Col>
           </Row>
         </Container>
