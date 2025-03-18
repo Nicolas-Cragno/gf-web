@@ -10,12 +10,28 @@ export default function News() {
         <Container>
           <Row>
             <Col xs={12} className='box'>
+            {/*
               <div  className='principal-new' style={{backgroundImage : 'url(' + ImgPrincipal + ') '}}>
                 <h2 className='new-title'>Titulo principal</h2>
               </div>
               <div>
                 <p className='new-txt'>Descripción de la última noticia.Descripción de la última noticia.Descripción de la última noticia.</p>
               </div>
+            */}
+            <Cards 
+              img={ImgPrincipal} 
+              title="Titulo" 
+              txt="Descripción de la última noticia.Descripción de la última noticia." 
+              date="fecha"
+              ></Cards>
+            </Col>
+            <Col md={4} className='box2'>
+              <Cards 
+              img={ImgPrincipal} 
+              title="Titulo" 
+              txt="Descripción de la última noticia.Descripción de la última noticia." 
+              date="fecha"
+              ></Cards>
             </Col>
             <Col md={4} className='box2'>
               <Cards 

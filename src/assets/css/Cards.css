@@ -1,0 +1,12 @@
+.cards{
+    background-color: red;
+    margin: 1vh;
+}
+
+.cards-body{
+    color: white !important;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    align-items: flex-start;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../assets/css/News.css";
+import "../assets/css/Cards.css";
 import { Card } from 'react-bootstrap';
 
 export default function Cards(props) {
@@ -8,14 +8,14 @@ export default function Cards(props) {
     <>
         <Card className='cards'>
             <Card.Img variant="top" src={img} />
-            <Card.Body>
-            <Card.Title>{title}</Card.Title>
-            </Card.Body>
-            {/*
-            <Card.Footer>
-            <Card.Text>{txt}</Card.Text>
-            <small className="text-muted">{date}</small>
+            <Card.Footer className='cards-body'>
+            <small>{title}</small>
             </Card.Footer>
+            {/*
+            <Card.Title>{title}</Card.Title>
+            <Card.Body>
+            <Card.Text>{txt}</Card.Text>
+            </Card.Body>
             */}
         </Card>
     </>
