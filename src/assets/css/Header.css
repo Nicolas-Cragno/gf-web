@@ -8,6 +8,40 @@
     z-index: 100;
 }
 
+.footer{
+    display: none;
+}
+
+.header-two{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .header-one{
+        display: none;
+    }
+    
+    .header-two{
+        display: flex;
+        /*
+        position: fixed;
+        z-index: 99;
+        */
+    }
+    
+    .navbar{
+        justify-content: center !important;
+    }
+    
+    .footer{
+        display: flex;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        z-index: 99;
+    }
+}
+
 .navbar{
     display: flex;
     justify-content:left;
@@ -30,6 +64,12 @@
 
 .linklogo{
     width: 7vh;
+}
+
+.linklogo2{
+    width: 5vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
 }
 
 .sitelogo{
