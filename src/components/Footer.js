@@ -2,7 +2,7 @@ import React from 'react';
 import Insta from '../assets/statics/insta-3.svg';
 import Youtube from '../assets/statics/youtube-3.svg';
 import { Link } from 'react-router-dom';
-import '../assets/css/Header.css';
+import '../assets/css/Footer.css';
 
 export default function Footer() {
   return (

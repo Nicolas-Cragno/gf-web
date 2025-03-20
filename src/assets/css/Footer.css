@@ -1,0 +1,13 @@
+.footer{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .footer{
+        display: flex;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        z-index: 99;
+    }
+}

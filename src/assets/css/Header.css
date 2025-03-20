@@ -8,10 +8,6 @@
     z-index: 100;
 }
 
-.footer{
-    display: none;
-}
-
 .header-two{
     display: none;
 }
@@ -31,14 +27,6 @@
     
     .navbar{
         justify-content: center !important;
-    }
-    
-    .footer{
-        display: flex;
-        bottom: 0;
-        right: 0;
-        position: fixed;
-        z-index: 99;
     }
 }
 
