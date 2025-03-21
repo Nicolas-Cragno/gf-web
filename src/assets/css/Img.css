@@ -1,0 +1,48 @@
+.img-logo{
+    width: 7.5vh;
+    padding: 1vh;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.img-txt{
+    padding:1vh;
+    text-align: left;
+}
+
+.txt-logo{
+    display: inline-block;
+    white-space: nowrap;
+    /*overflow: hidden;*/    /*  Se pisa con el contorno del icono */
+    word-wrap: break-word;
+}
+
+.img-txt:hover{
+    color: #d6030d;
+}
+
+.column-left{
+    justify-content: center;
+    display: flex;
+    width: 20%;
+    @media screen and (max-width:1000px) {
+        width: 100%;
+    }
+}
+
+.column-right{
+    width: 80%;
+    @media screen and (max-width:1000px) {
+        display: none;
+    }
+}
+
+.txt-logo-title{
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+.txt-logo-txt{
+    font-style: italic;
+    font-size: 1.5vh;
+}

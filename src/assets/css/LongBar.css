@@ -1,0 +1,85 @@
+.long-bar{/**/
+    position: relative;
+    bottom: 1vh;
+    margin-top: -10vh;
+    z-index: 91;
+}
+
+.item-bar{ /**/
+    background-color: #ffffff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 25vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    @media screen and (max-width: 1500px){
+        width: 20vh;        
+    }
+    @media screen and (max-width:1200px){
+            width: 19vh;
+            height: 14vh;
+    }
+    @media screen and (max-width:1000px){
+        width: 14vh;
+        height: 14vh;
+    }
+    @media screen and (max-width:800px){
+        width: 10vh;
+        height: 14vh;
+    }
+}
+
+
+
+/*
+.item-bar-1:hover{ 
+    background-color: #D31718;
+    background: url('../statics/ImgEntrenamiento.png');
+    background-size: cover;
+    }
+
+.item-bar-2:hover{ 
+    ackground-color: #D31718;
+    background: url('../statics/ImgMasculino.png');
+    background-size: cover;
+}
+
+.item-bar-3:hover{ 
+    background-color: #D31718;
+    background: url('../statics/ImgFemenino.png');
+    background-size: cover;
+}
+
+.item-bar-4:hover{ 
+    background-color: #D31718;
+    background: url('../statics/ImgCamiseta.png');
+    background-size: cover;
+}
+*/
+
+.item-bar-link{
+    text-decoration: none;
+}
+
+.item-bar-title{ /**/
+    padding: 3vh;
+    color: #D31718;
+    @media screen and (max-width:1200px){
+        padding: 2vh;
+    }
+    @media screen and (max-width:1000px){
+        padding: 1vh;
+    }
+    @media screen and (max-width:800px){
+        display: none;
+    }
+}
+
+
+.item-bar-title:hover{  
+    font-weight: bolder;
+    /* Ver como hacer que se pinte de blanco al "hover" del .item-bar directamente 
+    */
+}
