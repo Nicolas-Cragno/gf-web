@@ -1,0 +1,31 @@
+.img-descript{
+    background-color: white;
+    margin-right: 1.5vh;
+    margin-left: 1.5vh;
+    width: 25%;
+    padding: 3vh;
+}
+
+.img-descript:hover{
+    background-image: url('../statics/background2.svg');
+    color: white;
+}
+
+.img-descript-top{
+    height: 15vh;
+}
+
+.img-descript-under{
+    padding-top: 2vh;
+    height: 15vh;
+}
+
+.img-descript-logo{
+    width: 15vh;
+}
+
+.img-descript-title{
+    text-transform: uppercase;
+}
+
+.img-descript-txt{}
