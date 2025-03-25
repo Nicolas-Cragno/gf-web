@@ -1,0 +1,28 @@
+.calender{
+    width: 80%;
+    justify-content: right;
+    color: white;
+}
+
+.txt-red{
+    background-color: red;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.calender-box{
+    padding-top: 5vh;
+}
+
+.txt-title{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.txt-txt{
+    font-weight:normal;
+    font-style: italic;
+}

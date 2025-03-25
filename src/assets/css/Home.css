@@ -3,7 +3,6 @@
     width: 200vh;
     height: 100vh;
     display: flex;
-    right: 0;
 }
 
 .first-section{
@@ -17,6 +16,33 @@
     background-color: white;
     display: flex;
     align-items: center;
+    text-overflow: ellipsis;
+}
+
+.third-section{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+.small-active{
+    display: none;
+}
+
+@media screen and (max-width: 800px){    
+    .big-active{
+        display: none;
+    }
+    .small-active{
+        display: flex;
+    }
+
+    .second-section{
+        display: block;
+        align-content: center;
+    }
 }
 
 .home-logo{
@@ -44,15 +70,42 @@
     */
 }
 
-.carousel{
-    height: 100vh;
+.logo-small{
+    margin-top: 4vh;
+    display: block;
 }
 
-.carousel-img{
-    height: 100vh;
+.img-logo{
+    width: 10vh;
 }
 
-.carousel-title{
-    text-transform: uppercase;
-    font-size: 7vh;
+.long-img{
+    width: 100%;
+    height: 55vh;
+}
+
+.img-txt-info{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.small-img{
+    width: 6vh;
+    background-color: red;
+    margin-right: 2vh;
+    padding-right: 1vh;
+    border-top-right-radius: 1.3rem;
+    border-bottom-right-radius: 1.3rem;
+}
+
+.small-txt-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.small-txt{
+    font-weight: lighter;
+    color: white;
 }

@@ -2,6 +2,9 @@ import React from 'react';
 import '../assets/css/Home.css';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import ImgDescript from '../components/ImgDescript';
+import ImgPredio from '../assets/statics/predio.jpg';
+import ImgMap from '../assets/statics/map-color.svg';
+import Calender from '../components/Calender';
 import Logo from '../assets/statics/logo-principal.svg';
 import Logo1 from '../assets/statics/LogoTrainning.png';
 import Logo2 from '../assets/statics/LogoFutbol.png';
@@ -22,7 +25,7 @@ export default function Home() {
               </Link>
           </Col>
         </Row>
-        <Row>
+        <Row className='big-active'>
           <Col md={12} className='second-section'>
             <ImgDescript 
             img={Logo1} 
@@ -36,15 +39,59 @@ export default function Home() {
             />
             <ImgDescript 
             img={Logo3} 
-            title={'Entrenamientos'} 
-            txt={'Entrenamientos semanales con vista a competir los fines de semana.'}
+            title={'Seguimiento'} 
+            txt={'Fotos, videos y noticias de cada fin de semana, junto con notas y comentarios de los protagonistas.'}
             />
             <ImgDescript 
             img={Logo4} 
-            title={'Entrenamientos'} 
-            txt={'Entrenamientos semanales con vista a competir los fines de semana.'}
+            title={'Comunidad'} 
+            txt={'También priorizamos el sentido de pertencia, fomentando reuniones para que cada plantel comparta y afianze relaciones.'}
             />
           </Col>
+        </Row>
+        <Row className='small-active'>
+          <Col md={12} className='second-section'>
+            <Row>
+              <Col>
+                <div className='logo-small'>
+                <img src={Logo1} alt='' className='img-logo'></img>
+                <h6>Entramientos</h6>
+                </div>
+                <div className='logo-small'>
+                <img src={Logo2} alt='' className='img-logo'></img>
+                <h6>Competencia</h6>
+                </div>
+              </Col>
+              <Col>
+              <div className='logo-small'>
+                <img src={Logo3} alt='' className='img-logo'></img>
+                <h6>Segumiento</h6>
+                </div>
+                <div className='logo-small'>
+                <img src={Logo4} alt='' className='img-logo'></img>
+                <h6>Comunidad</h6>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+        <Row className='third-section'>
+          <Container>
+            <Row>
+              <Col md={6}>
+                <Calender></Calender>
+              </Col>
+              <Col md={6}>
+                <img src={ImgPredio} className='long-img' alt=''></img>
+                <div className='img-txt-info'>
+                  <img src={ImgMap} className='small-img' alt=''></img>
+                  <div className='small-txt-box'>
+                    <h3 className='small-txt'>El predio - Galicia 1973, CABA.</h3>
+                  </div>
+                </div> 
+              </Col>
+            </Row>
+          </Container>
         </Row>
       </Container>
     </div>
