@@ -8,7 +8,7 @@ export default function News() {
   return (
     <div className='news'>
         <Container>
-          <Row>
+          <Row className='news-big'>
             <Col xs={7} className='box1'>
             {/*
               <div  className='principal-new' style={{backgroundImage : 'url(' + ImgPrincipal + ') '}}>
@@ -46,6 +46,34 @@ export default function News() {
               ></Cards>
             </Col>
           </Row>
+          <Row className='news-small'>
+              <Col className='box2'>
+              <Cards 
+                img={ImgPrincipal} 
+                title="Titulo" 
+                txt="Descripción de la última noticia.Descripción de la última noticia." 
+                date="fecha"
+                ></Cards>
+                <Cards 
+                img={ImgPrincipal} 
+                title="Titulo" 
+                txt="Descripción de la última noticia.Descripción de la última noticia." 
+                date="fecha"
+                ></Cards>
+                <Cards 
+                img={ImgPrincipal} 
+                title="Titulo" 
+                txt="Descripción de la última noticia.Descripción de la última noticia." 
+                date="fecha"
+                ></Cards>
+                <Cards 
+                img={ImgPrincipal} 
+                title="Titulo" 
+                txt="Descripción de la última noticia.Descripción de la última noticia." 
+                date="fecha"
+                ></Cards>
+              </Col>
+            </Row>
         </Container>
     </div>
   )

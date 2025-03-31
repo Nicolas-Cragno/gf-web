@@ -3,6 +3,20 @@
     height: 50vh;
 }
 
+.news-small{
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .news-big{
+        display: none;
+    }
+
+    .news-small{
+        display: flex;
+    }
+}
+
 .principal-new{
     width: 100vh;
     height: 40vh;
