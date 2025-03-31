@@ -77,29 +77,52 @@ export default function Home() {
         </Row>
         <Row className='fourth-section'>
           <Row>
-            <Col md={6}>
-              <h1>HORARIOS</h1>
-              <h5>ENTRENAMIENTOS</h5>
-              <div className='hs'>
-                <h5>Masculino</h5>
-                <p>Martes 21:00 a 22:30 hs</p>
-                <p>Miércoles 22:00 a 23:00 hs</p>
-                <p>Jueves 21:30 a 23:00 hs</p>
+            <Col>
+              <h1 className='fourth-title'>HORARIOS</h1>
+              <div className='red-center'>
+                <h5 className='fourth-subtitle'>ENTRENAMIENTOS</h5>
               </div>
-              <Link to={'https://www.google.com/maps/place/Instituto+Cultural+Y+Deportivo+Luz+Y+Fuerza/@-34.6256086,-58.4951751,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcc9c6b75826ed:0x709bd790c0f08727!8m2!3d-34.625613!4d-58.4926002!16s%2Fg%2F11c7hb40t3!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D'} target='_blank' className='link-txt'>
+              <div className='div-one'>
+              <div className='hs'>
+                <h5 className='fourth-h5'>Masculino</h5>
+                <p className='fourth-p'>Martes 21:00 a 22:30 hs</p>
+                <p className='fourth-p'>Miércoles 22:00 a 23:00 hs</p>
+                <p className='fourth-p'>Jueves 21:30 a 23:00 hs</p>
+              </div>
+              <Link to={'https://www.google.com/maps/place/Instituto+Cultural+Y+Deportivo+Luz+Y+Fuerza/@-34.6256086,-58.4951751,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcc9c6b75826ed:0x709bd790c0f08727!8m2!3d-34.625613!4d-58.4926002!16s%2Fg%2F11c7hb40t3!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D'} target='_blank' className='link-txt '>
                 <div className='hs-box'>
                   <Row>
                     <Col md={2} className='box-left'>
                       <img src={ImgMap} alt='' className='img-small'></img>
                     </Col>
                     <Col md={10} className='box-right'>
-                      <h6 className='link-txt'>Instituto Cultural y Deportivo Luz y Fuerza</h6>
+                      <h6 className='link-txt-big'>Instituto Cultural y Deportivo Luz y Fuerza</h6>
+                      <h6 className='link-txt-small'>Predio Floresta</h6>
                     </Col>
                   </Row>
                 </div>
               </Link>
-            </Col>
-            <Col md={6}>
+              </div>
+              <div className='div-two'>
+                  <div className='hs'>
+                    <h5 className='fourth-h5'>Femenino</h5>
+                    <p className='fourth-p'>Jueves 21:00 a 23:00 hs</p>
+                  </div>
+                  <Link to={'https://www.google.com/maps/place/Instituto+Cultural+Y+Deportivo+Luz+Y+Fuerza/@-34.6256086,-58.4951751,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcc9c6b75826ed:0x709bd790c0f08727!8m2!3d-34.625613!4d-58.4926002!16s%2Fg%2F11c7hb40t3!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D'} target='_blank' className='link-txt '>
+                    <div className='hs-box'>
+                      <Row>
+                        <Col md={2} className='box-left'>
+                          <img src={ImgMap} alt='' className='img-small'></img>
+                        </Col>
+                        <Col md={10} className='box-right'>
+                          <h6 className='link-txt-big'>El Predio Caballito</h6>
+                          <h6 className='link-txt-small'>Predio Caballito</h6>
+                        </Col>
+                      </Row>
+                    </div>
+                  </Link>
+
+              </div>
             </Col>
           </Row>
         </Row>
