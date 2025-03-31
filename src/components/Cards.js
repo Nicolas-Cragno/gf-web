@@ -9,10 +9,15 @@ export default function Cards(props) {
         <Card className='cards'>
             <Card.Img variant="top" src={img} />
             <Card.Footer className='cards-body'>
-            <small>{title}</small>
+            <small className='txts'>
+              <h3 className='card-title'>{title}</h3>
+              <h5 className='card-txt'>{txt}</h5>
+            </small>
             </Card.Footer>
             {/*
-            <Card.Title>{title}</Card.Title>
+            <Card.Title className='card-navbar'>
+              <button className='card-btn'>ver noticia</button>  
+            </Card.Title> 
             <Card.Body>
             <Card.Text>{txt}</Card.Text>
             </Card.Body>

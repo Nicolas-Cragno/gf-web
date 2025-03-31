@@ -1,5 +1,5 @@
 .cards{
-    background-color: red;
+    background-color: black;
     margin: 1vh;
 }
 
@@ -11,3 +11,30 @@
     align-items: flex-start;
 }
 
+.txts{
+    display: inline-block;
+}
+
+.card-title{
+    background-color: red;
+    padding: 3px;
+    display: inline-block;
+    width: max-content;
+}
+
+.card-txt{
+    background-color: red;
+    padding-left: 3px;
+    display: inline-block;
+    width: auto;
+}
+.card-navbar{
+    display: flex;
+    justify-content: right;
+}
+
+.card-btn{
+    text-transform: uppercase;
+    font-size:medium;
+    margin: 3px;
+}

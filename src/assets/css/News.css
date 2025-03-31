@@ -1,6 +1,6 @@
 .news{
-    width: 100vh;
-    height: 94vh;
+    width: 100%;
+    height: 50vh;
 }
 
 .principal-new{
@@ -24,7 +24,15 @@
     color: white;
 }
 
-.box{
+.box1{
+    /*
     margin-top: 10vh;
+    */
 }
 
+.box2{
+    overflow: scroll;
+    scrollbar-width:thin;
+    overflow-x: hidden;
+    height: 65vh;
+}

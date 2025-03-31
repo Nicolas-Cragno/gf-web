@@ -1,8 +1,9 @@
 .home{
-    padding-top: 40vh;
-    width: 200vh;
-    height: 100vh;
+    padding-top: 30vh;
+    width: 100%;
+    height: 91vh;
     display: flex;
+    background-color: black;
 }
 
 .first-section{
@@ -10,16 +11,25 @@
     right: 0;
 }
 
+.home-img{
+    margin: -10vh;
+    width: 50rem;
+    @media screen and (max-width:1200px){
+        display: none;
+    }
+}
+
 .second-section{
     width: 100%;
     height: 50vh;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     align-items: center;
     text-overflow: ellipsis;
 }
 
 .third-section{
+    background-color: black;
     width: 100%;
     height: 50vh;
     display: flex;
@@ -71,12 +81,12 @@
 }
 
 .logo-small{
-    margin-top: 4vh;
-    display: block;
+    display: flex;
 }
 
-.img-logo{
+.img-logo-small{
     width: 10vh;
+    margin-right: 1vh;
 }
 
 .long-img{
