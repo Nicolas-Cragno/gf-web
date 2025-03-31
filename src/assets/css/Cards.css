@@ -1,6 +1,10 @@
 .cards{
     background-color: black;
     margin: 1vh;
+    box-shadow:
+    inset 0 -1em 1em #3b0507,
+    0 0 0 2px transparent,
+    0.3em 0.3em 1em   #090504;
 }
 
 .cards-body{
@@ -9,6 +13,13 @@
     font-size: larger;
     display: flex;
     align-items: flex-start;
+    width: 100%;
+    height: 10vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width:thin;
+    scrollbar-color: #F2000D black;
 }
 
 .txts{
@@ -16,14 +27,13 @@
 }
 
 .card-title{
-    background-color: red;
-    padding: 3px;
+    background-color: #F2000D;
+    padding: 5px;
     display: inline-block;
     width: max-content;
 }
 
 .card-txt{
-    background-color: red;
     padding-left: 3px;
     display: inline-block;
     width: auto;

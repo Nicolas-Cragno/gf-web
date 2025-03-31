@@ -9,7 +9,7 @@ export default function News() {
     <div className='news'>
         <Container>
           <Row>
-            <Col xs={8} className='box1'>
+            <Col xs={7} className='box1'>
             {/*
               <div  className='principal-new' style={{backgroundImage : 'url(' + ImgPrincipal + ') '}}>
                 <h2 className='new-title'>Titulo principal</h2>
@@ -25,7 +25,7 @@ export default function News() {
               date="fecha"
               ></Cards>
             </Col>
-            <Col md={4} className='box2'>
+            <Col md={5} className='box2'>
               <Cards 
               img={ImgPrincipal} 
               title="Titulo" 
