@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4dea8746.css",
+    "main.js": "/static/js/main.6679627c.js",
+    "static/js/453.3ca3f245.chunk.js": "/static/js/453.3ca3f245.chunk.js",
+    "static/media/background-3.svg": "/static/media/background-3.90325725d9a92d412501.svg",
+    "static/media/logo-principal.svg": "/static/media/logo-principal.830186f4e580a93118c4fd9d7756b026.svg",
+    "static/media/blackImg.svg": "/static/media/blackImg.4e67367f68e5f01ac5b5b2b9f1498fa0.svg",
+    "static/media/FeedBackground800px.svg": "/static/media/FeedBackground800px.897fcd989a6865d52338e1d50c6579c9.svg",
+    "static/media/predio.jpg": "/static/media/predio.c9c7f99f40536bdd8321.jpg",
+    "static/media/insta-3.svg": "/static/media/insta-3.9b3f96b944082d5a1702e08e743f144f.svg",
+    "static/media/LogoFutbol.png": "/static/media/LogoFutbol.5496af492f01ad00a25c.png",
+    "static/media/LogoTrainning.png": "/static/media/LogoTrainning.113fd11c003bedca04bd.png",
+    "static/media/youtube-3.svg": "/static/media/youtube-3.82d8c13257050178d21da62f88a53cc5.svg",
+    "static/media/map-color.svg": "/static/media/map-color.73affd409276330949518335c8c2ac15.svg",
+    "static/media/news-logo.svg": "/static/media/news-logo.0388adef67bd89e84e11e7459f6b32c9.svg",
+    "static/media/clothe-logo.svg": "/static/media/clothe-logo.9745b2bac921c4d630b41a4d5bbfa8b1.svg",
+    "static/media/home-logo.svg": "/static/media/home-logo.3e399d4c707b0f7775bae41a71373bc5.svg",
+    "index.html": "/index.html",
+    "main.4dea8746.css.map": "/static/css/main.4dea8746.css.map",
+    "main.6679627c.js.map": "/static/js/main.6679627c.js.map",
+    "453.3ca3f245.chunk.js.map": "/static/js/453.3ca3f245.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dea8746.css",
+    "static/js/main.6679627c.js"
+  ]
+}

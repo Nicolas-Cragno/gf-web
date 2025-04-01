@@ -19,9 +19,11 @@ export default function Header() {
                         <Link to={'/'} className='link'>
                             <li className='navitem'><img src={Logo} alt='' className='linklogo'></img></li>
                         </Link>
+                        {/* 
                         <Link to={'/noticias'} className='link'>
                              <li className='navitem'>NOTICIAS</li>
                         </Link>
+                        */}
                         <Link to={'/predio'} className='link'>
                             <li className='navitem'>PREDIO</li>
                         </Link>
@@ -47,11 +49,13 @@ export default function Header() {
                         <Link to={'/'} className='link'>
                             <li className='navitem'><img src={Logo} alt='' className='linklogo'></img></li>
                         </Link>
+                        {/*
                         <Link to={'/noticias'} className='link'>
                              <li className='navitem'>
                                 <img src={NewsLogo} alt='' className='linklogo2'></img>
                              </li>
                         </Link>
+                        */}
                         <Link to={'/predio'} className='link'>
                             <li className='navitem'>
                                 <img src={HomeLogo} alt='' className='linklogo2'></img>
