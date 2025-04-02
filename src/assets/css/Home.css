@@ -13,7 +13,7 @@
 
 .home-img{
     margin: -10vh;
-    width: 50rem;
+    width: 40rem;
     @media screen and (max-width:1200px){
         display: none;
     }
@@ -91,11 +91,32 @@
 
 .logo-small{
     display: flex;
+    width: max-content;
+}
+
+.logo-small-item{
+    margin: 5px;
+}
+
+.logo-small-txt{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
 }
 
 .img-logo-small{
-    width: 10vh;
+    justify-content: center;
+    width: 15vh;
     margin-right: 1vh;
+}
+
+.txt-logo-small{
+    background-color: #d6030d;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    width: 20vh;
 }
 
 .long-img{

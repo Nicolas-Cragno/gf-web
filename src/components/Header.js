@@ -34,10 +34,10 @@ export default function Header() {
                 </Col>
                 <Col md={6}>
                     <ul className='sites'>
-                        <Link to={'/'} className='link'>
+                        <Link to={'https://www.instagram.com/gfpredio/'} className='link' target='_blank'>
                             <li className='navitem'><img src={Insta} alt='' className='sitelogo'></img></li>
                         </Link>
-                        <Link to={'/'} className='link'>
+                        <Link to={'https://www.youtube.com/@GFPredio'} className='link' target='_blank'>
                             <li className='navitem'><img src={Youtube} alt='' className='sitelogo'></img></li>
                         </Link>
                     </ul>
@@ -55,7 +55,6 @@ export default function Header() {
                                 <img src={NewsLogo} alt='' className='linklogo2'></img>
                              </li>
                         </Link>
-                        */}
                         <Link to={'/predio'} className='link'>
                             <li className='navitem'>
                                 <img src={HomeLogo} alt='' className='linklogo2'></img>
@@ -66,6 +65,7 @@ export default function Header() {
                                 <img src={ClotheLogo} alt='' className='linklogo2'></img>
                             </li>
                         </Link>
+                        */}
                       </ul>
                 </Col>
             </Row>
